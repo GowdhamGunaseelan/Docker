@@ -1,0 +1,28 @@
+rpm -qa | grep mysql
+Failed to get D-Bus connection: Operation not permitted
+docker run -d -it --privileged {Image ID} /usr/sbin/init
+rpm -qa | grep mysq
+’mypassword’
+ mysqladmin -u root -p’mypassword’ Foni@123456 ''
+mysqladmin -u root -p’mypassword’ password Foni@123456
+
+https://stackoverflow.com/questions/70993613/unable-to-install-mysql-on-centos7
+docker inspect 97e42fc70348 | grep "IPAddress"
+
+docker volume create ubuntu-volume
+docker stop <container-name>
+
+
+
+docker commit <CONTAINERID> <NEWIMAGENAME>
+docker run -d -p 8080:8080 --privileged 
+docker inspect cc54d96d63ea | grep "I
+
+systemctl start mysqld
+systemctl status mysqld
+docker-compose -f docker-compose.yml up -d
+VOLUME ADD COMMENT
+docker run -d \
+  --name devtest \
+  --mount source=web-drive,target=/app \
+   wepserver
